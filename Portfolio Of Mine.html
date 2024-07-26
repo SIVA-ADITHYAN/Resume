@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Siva Adithyan's Portfolio</title>
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+        body {
+            
+            background-image: url(https://i.pinimg.com/originals/5a/4d/70/5a4d70ceb38747d2286188fb2b62419e.gif);
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            line-height: 200%;
+            
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin:  15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        a:hover{
+            background-color: rgb(180, 183, 185);
+             
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+        }
+
+        h1, h2 {
+            color: gray;
+        }
+
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+            background-color: #333;
+            color: rgb(12, 9, 9);
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+        table, tr, th, td{
+            text-align: center;
+            border: 1px solid black;
+            padding: 0.5cm;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <header >
+        <head>
+            <h1 style="text-align: left; padding-left: 10%;color: aliceblue; margin-bottom: 30px;">Siva_Adithyan</h1>
+            <h3 style="text-align: left; padding-left: 10%;color: aliceblue; ">Full-Stack developer</h3>
+        </head>
+        
+        
+        <nav style="text-align: right;" >
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#learning">Learning</a></li>
+                <li><a href="#tools">Tools</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><button style="background-color: aliceblue; border-radius:5cm;" onclick="viewResume()">View Resume</button></li>
+                <li><button style="background-color: aliceblue; border-radius:5cm;"onclick="downloadResume()">Download Resume</button></li>
+                
+            </ul>
+        </nav>
+    </header>
+     
+    <section style="display: flex; padding: 5px; ">
+
+        <div><img src="My.jpg" style="width: 500px; height: auto; border: 3px solid rgb(40, 38, 38);"></div>
+        <div>
+        <div id="about" style="margin: 10%;">
+        <h2 style="padding-bottom: 10px;" >About Me</h2>
+        <p style="font-size: large; line-height: 150%;" >I am currently a Third-year Electronics and Communication Engineering student at SKCET
+            seeking internship opportunities. Proactive and hardworking, I maintain up-to-date
+            knowledge in Electronics and Communication technology. I am a fast learner and open to
+            relocating for internship opportunities.
+        </div>
+    </p>
+    <div style="margin: 10%;">
+        <h2>Education</h2>
+        <body>
+        <centre><table>
+                <tr>
+                    <th>School</th>
+                    <th>Year</th>
+                    <th>Percentage</th>
+                </tr>
+                <tr>
+                    <td>SVMSS</td>
+                    <td>2020</td>
+                    <td>86%</td>
+                </tr>
+                <tr>
+                    <td>SSVM</td>
+                    <td>2022</td>
+                    <td>94%</td>
+                </tr>
+                <tr>
+                    <td>SKCET</td>
+                    <td>2022-2026</td>
+                    <td>80%</td>
+                </tr>
+        </table></centre>
+        </body></div>
+        </div>
+    </section>
+    <hr>
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <ul>
+            <li>Embedded Systems</li>
+            <li>Iot</li>
+            <li>Circuit Design</li>
+            <li>Solid Works</li>
+            <li>Wireless Communication</li>
+        </ul>
+        <hr>
+        <h2>Software Skills</h2>
+        <ul>
+            <li>C++/C</li>
+            <li>Java</li>
+            <li>Html</li>
+            <li>Java Script</li>
+            <li>DSA</li>
+            <li>Type Script</li>
+            <li>Sql</li>
+        </ul>
+        <hr>
+        <h2>Personals Skills</h2>
+        <ul>
+            <li>Problem Solving</li>
+            <li>Communication Skill</li>
+            <li>Creative and Logical Thinking</li>
+            <li>Technical Support</li>
+            <li>Project Management</li>
+        </ul>
+        <hr>
+    </section>
+    <section id="learning">
+        <h2>Learning</h2>
+        <ul>
+        <li><p>Completed in-plant training in embedded systems at Zero Value Infotech.</p></li>
+        <li><p>Completed intern training in Full-Stack development at Credo Systemz</p></li>
+        </ul>
+        <hr>
+    </section>
+    
+    <section id="tools">
+        <h2>Tools</h2>
+        <ul>
+            <li>Proteus and Multisim</li>
+            <li>BLYNK and Adafruit IoT</li>
+            <li>Pycharm</li>
+            <li>VScode</li>
+            <li>GIT</li>
+            <li>GitHub</li>
+            <li>Adobe applications</li> 
+        </ul>
+        <hr>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>
+                Developing an AI Powered Energy Management System for an
+                Industries</li><br>
+            <li>Creating an AI-driven Reservoir Management System.</li><br>
+            <li>Bridging the digital divide in Remote India.</li>
+        </ul>
+        <hr>
+    </section>
+
+    <section id="achievements">
+        <h2>Certifications</h2>
+        <div>
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-body">
+                    <ul>
+                        <li >Enhancing Soft Skills.<a href="images/727722euec207_VISVESHVAR_S.pdf" target="_blank"><i class="fa fa-external-link elink"></i></a></i></li>
+                        <li >Ethics and Engineering.<a href="images/727722euec207_VISVESHVAR_S.pdf" target="_blank"><i class="fa fa-external-link elink"></i></a></li>
+                    </ul>
+
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <hr>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <h4>Sivaadithyan Nirmalkumar</h4>
+        <p>Email: dr.adithnirmal@gmail.com</p>
+        <p>Phone: +91 82209 06499</p>
+        <hr>
+    </section>
+    <section>
+    <div id="contacts" style="text-align: center; font-size: 50px; opacity: 50%;">
+       
+        <a href="https://www.linkedin.com/in/visveshvar-s-00a0b7256/" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+        <a href="https://github.com/Visveshvar" target="_blank"><i class="fa fa-github-square"></i></a>
+        <a href="https://www.instagram.com/accounts/login/?next=%2F&source=desktop_nav" target="_blank"><i class="fa fa-instagram"></i></a>
+        <a href="https://x.com/Darkofworldtree" target="_blank"><i class="fa fa-twitter-square"></i></a>
+        <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" target="_blank"><i class="fa fa-envelope"></i></a>
+    </div>
+    </section>
+
+    <script>
+        function viewResume() {
+            window.open('Resume.pdf', '_blank');
+        }
+
+        function downloadResume() {
+            const link = document.createElement('a');
+            link.href = 'Resume.pdf';
+            link.download = 'Siva_Adithyan_Resume.pdf';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+    </script>
+</body>
+</html>
